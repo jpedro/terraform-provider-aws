@@ -42,7 +42,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 			},
 			"data_location": {
@@ -56,7 +56,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
@@ -85,7 +85,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
@@ -133,7 +133,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
@@ -180,7 +180,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
@@ -226,7 +226,7 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 					"database",
 					"table",
 					"table_with_columns",
-					"policy_tag",
+					// "policy_tag",
 				},
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
