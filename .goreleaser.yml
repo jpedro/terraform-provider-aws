@@ -17,13 +17,17 @@ builds:
     - '-s -w -X main.version={{.Version}} -X main.commit={{.Commit}}'
   goos:
     # - freebsd
+    ### ⨯ release failed after 805.98s error=failed to build for windows_386: # github.com/terraform-providers/terraform-provider-aws/aws
+    ### aws/resource_aws_cloudwatch_event_api_destination.go:47:41: constant 9223372036854775807 overflows int
     # - windows
     - linux
     - darwin
   goarch:
     - amd64
     - '386'
-    - arm
+    ### ⨯ release failed after 22.45s error=failed to build for linux_arm_6: # github.com/terraform-providers/terraform-provider-aws/aws
+    ### aws/resource_aws_cloudwatch_event_api_destination.go:47:41: constant 9223372036854775807 overflows int
+    # - arm
     - arm64
   ignore:
     - goos: darwin
