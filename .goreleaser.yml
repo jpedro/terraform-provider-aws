@@ -24,7 +24,9 @@ builds:
     - darwin
   goarch:
     - amd64
-    - '386'
+    ### ⨯ release failed after 16.61s error=failed to build for linux_386: # github.com/terraform-providers/terraform-provider-aws/aws
+    ### aws/resource_aws_cloudwatch_event_api_destination.go:47:41: constant 9223372036854775807 overflows int
+    # - '386'
     ### ⨯ release failed after 22.45s error=failed to build for linux_arm_6: # github.com/terraform-providers/terraform-provider-aws/aws
     ### aws/resource_aws_cloudwatch_event_api_destination.go:47:41: constant 9223372036854775807 overflows int
     # - arm
