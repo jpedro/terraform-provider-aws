@@ -58,3 +58,41 @@ release:
   # draft: true
 changelog:
   skip: true
+
+
+
+# $ goreleaser release --rm-dist --timeout 60m
+#    • releasing...
+#    • loading config file       file=.goreleaser.yml
+#    • loading environment variables
+#    • getting and validating git state
+#       • releasing v3.9.2-pre, commit 99e061f79a6a61b19615fe466b90ed7ae09ffb3d
+#    • parsing tag
+#    • running before hooks
+#       • running go mod tidy
+#    • setting defaults
+#       • snapshotting
+#       • github/gitlab/gitea releases
+#       • project name
+#       • loading go mod information
+#       • building binaries
+#       • creating source archive
+#       • archives
+#       • linux packages
+#       • snapcraft packages
+#       • calculating checksums
+#       • signing artifacts
+#       • docker images
+#       • docker manifests
+#       • artifactory
+#       • blobs
+#       • homebrew tap formula
+#       • scoop manifests
+#       • twitter
+#       • milestones
+#    • snapshotting
+#    • checking ./dist
+#       • --rm-dist is set, cleaning it up
+#    • loading go mod information
+#    • writing effective config file
+#       • writing                   config=dist/config.yaml
