@@ -127,14 +127,14 @@ func resourceAwsLakeFormationPermissions() *schema.Resource {
 				Optional: true,
 				Computed: true,
 				MaxItems: 1,
-				ExactlyOneOf: []string{
-					"catalog_resource",
-					"data_location",
-					"database",
-					"table",
-					"table_with_columns",
-					// "policy_tag",
-				},
+				// ExactlyOneOf: []string{
+				// 	"catalog_resource",
+				// 	"data_location",
+				// 	"database",
+				// 	"table",
+				// 	"table_with_columns",
+				// 	// "policy_tag",
+				// },
 				Elem: &schema.Resource{
 					Schema: map[string]*schema.Schema{
 						"key": {
